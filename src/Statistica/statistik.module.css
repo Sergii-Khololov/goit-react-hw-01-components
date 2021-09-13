@@ -1,0 +1,38 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  color: #757575;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.item {
+  margin-right: 10px;
+  display: block;
+  background-color: aquamarine;
+  width: 75px;
+  border: solid black 2px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+}
