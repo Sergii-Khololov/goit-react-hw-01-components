@@ -1,20 +1,21 @@
-import '../src/App.css';
+
+import '../App/App.css';
 
 // ====== Profile ======
-import user from './Profile/user.json';
-import Profile from './Profile/Profile';
+import user from '../Back-End/user.json';
+import Profile from '../Components/Profile/Profile';
 
 // ====== Statistic ======
-import statisticalData from '../src/Statistica/statistical-data.json';
-import Statistics from './Statistica/Statistic';
+import statisticalData from '../Back-End/statistical-data.json';
+import Statistics from '../Components/Statistica/Statistic';
 
 // ====== FriendList ======
-import friends from '../src/Friends/friends.json';
-import FriendList from './Friends/FriendList';
+import friends from '../Back-End/friends.json';
+import FriendList from '../Components/Friends/FriendList';
 
 // ====== Transaction ======
-import transactions from '../src/Transaction/transactions.json';
-import TransactionHistory from './Transaction/TransactionHistory';
+import transactions from '../Back-End/transactions.json';
+import TransactionHistory from '../Components/Transaction/TransactionHistory';
 
 function App() {
   return (
